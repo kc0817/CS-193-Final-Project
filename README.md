@@ -2,7 +2,7 @@
 
 ### Project goal: Build, wire, and program a 5 DoF robotic arm with a gripper at the end to move small objects around. 
 
-### Minimum Viable Product must have these features:
+### Minimum Viable Product:
 1. Mechanically working arm
 2. Safe and working power circuits and signal circuits to power and send data to each servo
 3. Teleoperation functionality of arm through command line input
