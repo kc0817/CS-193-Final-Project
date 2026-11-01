@@ -1,0 +1,19 @@
+[project]
+name = "cs-193-final-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Kevin Chen", email = "kevinjkchen17@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pyserial>=3.5",
+]
+
+[project.scripts]
+cs-193-final-project = "cs_193_final_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
