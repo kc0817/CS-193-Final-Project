@@ -35,7 +35,7 @@ Build, wire, and program this arm to lift objects up to 100 grams in weight
 There are 3 different command types to control this arm:
 - `help` (lists all valid commands)
 - `stop` (stops the arm)
-- `<joint_id>` <target_angle>, where joint_id is one of the following: t, s, e, w1, w2, g, (which corresponds to turret, shoulder, elbow, wrist1, wrist2, grabber) and target_angle is the target_angle of the servo
+- `<joint_id> <target_angle>`, where joint_id is one of the following: `t`, `s`, `e`, `w1`, `w2`, `g`, (which corresponds to turret, shoulder, elbow, wrist1, wrist2, grabber) and target_angle is the desired target_angle of the joint
 
 ## Author
 Kevin Chen, https://github.com/kc0817
